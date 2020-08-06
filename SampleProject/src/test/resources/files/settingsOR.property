@@ -1,0 +1,11 @@
+browser=chrome
+url=http://cleartrip.com
+implicit.wait=30
+#excelpath=
+#username=
+#password=
+sheetName=Sheet1
+
+#moduleName_ObjectName
+flight_from=//*[@id='FromTag']
+flight_to=//*[@id='ToTag']
