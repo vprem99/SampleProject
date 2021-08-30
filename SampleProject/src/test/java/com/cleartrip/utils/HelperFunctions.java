@@ -22,7 +22,7 @@ public class HelperFunctions {
 			System.setProperty("webdriver.chrome.driver",
 					".\\src\\test\\resources\\drivers\\chromedriver.exe");
 			
-			ChromeOptions cp=new ChromeOptions();
+			ChromeOptions cp=new ChromeOptions();;
 			cp.addArguments("--disable-notifications");
 			driver = new ChromeDriver(cp); // Starts Chrome Browser
 			driver.manage().window().maximize();
