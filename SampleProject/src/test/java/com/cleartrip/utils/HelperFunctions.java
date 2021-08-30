@@ -35,7 +35,7 @@ public class HelperFunctions {
 			break;
 		}
 		default:
-			System.out.println("Invalid Browser");
+			System.out.println("Invalid Browser123");
 		}
 		return driver;
 	}
